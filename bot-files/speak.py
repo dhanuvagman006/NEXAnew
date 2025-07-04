@@ -8,7 +8,7 @@ import pyttsx3
 
 api_key = "FztRh0MY8wTsyNcUKcBkXq7phL0TQlL08MBo3XMmuysCZfgy8RpIJQQJ99BFACYeBjFXJ3w3AAAYACOGN1GL"  # Consider moving this to an environment variable
 region = "eastus"
-engine = pyttsx3.init()
+engine = pyttsx3.init(driverName='espeak')  # For Linux
 engine.setProperty('rate', 150)     # Speed (default ~200)
 engine.setProperty('volume', 1.0)   # Volume (0.0 to 1.0)
 
