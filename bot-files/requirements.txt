@@ -1,0 +1,9 @@
+opencv-python
+pygame
+requests
+openai
+ytmusicapi
+python-vlc
+SpeechRecognition
+azure-cognitiveservices-speech
+pydub
